@@ -42,11 +42,11 @@ Feature: Title of your feature
       #| name2 |     7 | Fail    |
       #
       
-  #Scenario: Title of your scenario
-    #Given User ope the chrome
-    #And User open website
-    #When when user click on gradel
-    #Then User should see implemtation
+  Scenario: Title of your scenario
+    Given User ope the chrome
+    And User open website
+    When when user click on gradel
+    Then User should see implemtation
     
     Scenario: SBT Check
     Given User open the chrome
