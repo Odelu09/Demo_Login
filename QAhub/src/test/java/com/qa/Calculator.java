@@ -7,11 +7,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.qa.pageobjectes.MavenCucumberPage;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Calculator {
+	
+	MavenCucumberPage mavencucumber=new MavenCucumberPage();
 	WebDriver  driver;
 	
 	@Given("User open the chrome")
@@ -26,7 +30,7 @@ public class Calculator {
 	}
 	@When("^when user click on gradel$")
 	public void clickOnGreadle() {
-		driver.findElement(By.xpath("//a[@href=\"#gradle\"]")).click();
+		driver.findElement(mavencucumber.Gradel).click();
 		
 	}
 	
