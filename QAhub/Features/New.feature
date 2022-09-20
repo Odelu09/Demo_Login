@@ -43,7 +43,7 @@ Feature: Title of your feature
       #
       
   Scenario: Title of your scenario
-    Given User ope the chrome
+    Given User open the chrome
     And User open website
     When when user click on gradel
     Then User should see implemtation
